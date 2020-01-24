@@ -10,10 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
 
 //加入下列這一行，其它行不要刪掉
 Route::get('hello','Hello\DemoController@index');
