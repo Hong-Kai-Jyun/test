@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('hello','Hello\DemoController@index');
 
 Route::resource('customer','CustomerController');
+
+Route::resource('cars','CarsController');
