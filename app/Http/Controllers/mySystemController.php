@@ -10,6 +10,6 @@ use View;
 class mySystemController extends Controller
 {
     public function index(){
-        return View::make('board');
+        return View::make('myboard');
     }
 }
