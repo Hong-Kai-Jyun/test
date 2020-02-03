@@ -23,4 +23,4 @@ Route::resource('customer','CustomerController');
 
 Route::resource('cars','CarsController');
 
-//Route::resource('mysystem',);
+Route::resource('mysystem','mySystemController');
