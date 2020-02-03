@@ -1,3 +1,4 @@
+<!--
 <nav class="navbar navbar-expand-lg navbar-light navbar-default">
   <div class="container">
     <a href="{{ url('/') }}" class="navbar-brand">
@@ -12,6 +13,7 @@
     </ul>
   </div>
 </nav>
+-->
 <!--menu開始-->  
 <div class="nav navbar-default col-sm-auto"><!-- style="width:30%"navbar-fixed-bottom-->
 

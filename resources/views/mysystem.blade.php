@@ -1,5 +1,5 @@
 @extends('layouts.mymaster')
-@section('title','客戶列表')
+@section('title','MySystem')
 @section('content')
   <div class="row justify-content-center">
     <div class="col-md-10">
