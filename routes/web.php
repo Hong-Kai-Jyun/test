@@ -17,18 +17,18 @@ Route::get('/', function () {
 
 
 //加入下列這一行，其它行不要刪掉
-Route::get('hello','Hello\DemoController@index');
+Route::get('/hello','Hello\DemoController@index');
 
-Route::resource('customer','CustomerController');
+Route::resource('/customer','CustomerController');
 
-Route::resource('cars','CarsController');
+Route::resource('/cars','CarsController');
 
-Route::resource('mysystem','mySystemController');
+Route::resource('/mysystem','mySystemController');
 
 
 
-Route::any('customer','CustomerController@index');
+Route::any('/customer','CustomerController@index');
 
-Route::any('cars','CarsController@index');
+Route::any('/cars','CarsController@index');
 
-Route::any('mysystem','mySystemController@index');
+Route::any('/mysystem','mySystemController@index');
