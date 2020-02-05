@@ -27,8 +27,8 @@ Route::resource('mysystem','mySystemController');
 
 
 
-Route::any('customer','CustomerController');
+Route::any('customer','CustomerController@index()');
 
-Route::any('cars','CarsController');
+Route::any('cars','CarsController@index()');
 
-Route::any('mysystem','mySystemController');
+Route::any('mysystem','mySystemController@index()');
