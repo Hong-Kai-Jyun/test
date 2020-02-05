@@ -24,3 +24,11 @@ Route::resource('customer','CustomerController');
 Route::resource('cars','CarsController');
 
 Route::resource('mysystem','mySystemController');
+
+
+
+Route::get('customer','CustomerController');
+
+Route::get('cars','CarsController');
+
+Route::get('mysystem','mySystemController');
