@@ -29,6 +29,6 @@ Route::resource('/mysystem','mySystemController');
 
 Route::any('/customer','CustomerController@index');
 
-Route::any('/cars', function () { return view('board') });
+Route::get('/cars', function () { return view('board') });
 
 Route::any('/mysystem','mySystemController@index');
