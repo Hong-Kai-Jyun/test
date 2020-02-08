@@ -26,13 +26,13 @@ Route::resource('/cars','CarsController');
 Route::resource('/mysystem','mySystemController');
 
 
-
+/*
 Route::any('/customer','CustomerController@index');
 
 Route::any('/cars','CarsController@index');
 
 Route::any('/mysystem','mySystemController@index');
-/*Route::get('/', function () {
+Route::get('/', function () {
     return view('CarsController@index');
 });
 */
