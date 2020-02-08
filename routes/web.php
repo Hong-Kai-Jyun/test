@@ -32,3 +32,7 @@ Route::any('/customer','CustomerController@index');
 Route::any('/cars','CarsController@index');
 
 Route::any('/mysystem','mySystemController@index');
+/*Route::get('/', function () {
+    return view('CarsController@index');
+});
+*/
